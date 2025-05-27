@@ -7,7 +7,7 @@ st.set_page_config(
 )
 
 # ---- Title ----
-st.title("PT Bách ❤️ Thảo Linh")
+st.title("PT Bách ❤️🔒 Thảo Linh")
 
 # ---- Image Section ----
 st.header("Our Favorite Photos")
