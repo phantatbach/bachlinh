@@ -2,7 +2,7 @@ import streamlit as st
 
 # Configure the page
 st.set_page_config(
-    page_title="PT Bách ❤️ Thảo Linh",
+    page_title="PT Bách ❤️🔒 Thảo Linh",
     layout="centered"
 )
 
