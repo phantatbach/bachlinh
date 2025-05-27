@@ -24,9 +24,9 @@ st.header("Timeline")
 
 st.write(
     """
-- **Lần đầu nói chuyện**:
-- **Xóa biệt hiệu**:
-- **Tỏ tình**:
+- **Lần đầu nói chuyện**: 11/04/2025
+- **Xóa biệt hiệu**: 01/05/2025
+- **Tỏ tình**: 20/05/2025
 """
 )
 
