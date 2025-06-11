@@ -3,12 +3,12 @@ import streamlit.components.v1 as components
 
 # Configure the page
 st.set_page_config(
-    page_title="PT Bách ❤️🔒 Thảo Linh",
+    page_title="Bách ❤️🔒 Thảo Linh",
     layout="centered"
 )
 
 # ---- Title ----
-st.title("PT Bách ❤️🔒 Thảo Linh")
+st.title("Bách ❤️🔒 Thảo Linh")
 
 # ---- Image Section ----
 st.header("Ảnh của hai đứa")
@@ -21,7 +21,7 @@ with cols[1]:
     st.image("images/linh.jpg", caption="Thảo Linh", use_container_width=True)
 
 # ---- Relationship Summary ----
-st.header("Thơ về cuộc tình của hai đứa")
+st.header("Bài thơ về cuộc tình của hai đứa")
 
 # Dữ liệu bài thơ chi tiết
 poem_data_detailed = [
@@ -101,4 +101,4 @@ components.html(html, height=600, scrolling=True)
 
 # ---- Footer ----
 st.markdown("---")
-st.caption("Made with ❤️ by PT Bách for Thảo Linh")
+st.caption("Made with ❤️ by Bách for Thảo Linh")
