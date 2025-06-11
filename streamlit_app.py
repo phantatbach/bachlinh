@@ -1,5 +1,6 @@
 import streamlit as st
 import streamlit.components.v1 as components
+
 # Configure the page
 st.set_page_config(
     page_title="PT Bách ❤️🔒 Thảo Linh",
@@ -10,7 +11,7 @@ st.set_page_config(
 st.title("PT Bách ❤️🔒 Thảo Linh")
 
 # ---- Image Section ----
-st.header("Our Favorite Photos")
+st.header("Ảnh của hai đứa")
 cols = st.columns(2)
 
 # Replace the paths below with your actual image file paths or URLs
@@ -20,7 +21,7 @@ with cols[1]:
     st.image("images/linh.jpg", caption="Thảo Linh", use_container_width=True)
 
 # ---- Relationship Summary ----
-st.header("Thơ về cuộc tình")
+st.header("Thơ về cuộc tình của hai đứa")
 
 # Dữ liệu bài thơ chi tiết
 poem_data_detailed = [
