@@ -66,7 +66,7 @@ for stanza in poem_data_detailed:
                     style="cursor:pointer; color:#1f77b4; font-weight:500;">
                     {line['text']}
                 </span>
-                <div id="{line_id}" style="display:none; margin-left:20px; color:#444; font-style:italic; margin-top:4px;">
+                <div id="{line_id}" style="display:none; margin-left:20px; color:#d16e94; font-style:italic; margin-top:4px;">
                     {annotation}
                 </div>
             </div>
