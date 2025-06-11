@@ -22,18 +22,6 @@ with cols[1]:
 # ---- Relationship Summary ----
 st.header("Timeline")
 
-st.write(
-    """
-- **Lần đầu nói chuyện**: 11/04/2025
-- **Xóa biệt hiệu**: 01/05/2025
-- **Tỏ tình**: 20/05/2025
-"""
-)
-
-# ---- Footer ----
-st.markdown("---")
-st.caption("Made with ❤️ by PT Bách for Thảo Linh")
-
 # Dữ liệu bài thơ chi tiết
 poem_data_detailed = [
     {
@@ -46,8 +34,6 @@ poem_data_detailed = [
         ]
     }
 ]
-
-st.title("📖 Bài thơ có chú giải")
 
 # HTML hiển thị thơ và diễn giải
 html = "<div style='font-family:serif; font-size:18px;'>"
@@ -96,3 +82,7 @@ function toggleExplanation(id) {
 
 # Chèn toàn bộ HTML + JS bằng components.html (cho phép <script> chạy)
 components.html(html, height=600, scrolling=True)
+
+# ---- Footer ----
+st.markdown("---")
+st.caption("Made with ❤️ by PT Bách for Thảo Linh")
