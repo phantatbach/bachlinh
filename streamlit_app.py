@@ -36,25 +36,65 @@
 
 import streamlit as st
 
-# 1. Nhập bài thơ
-st.title("📜 Viết & Diễn giải Thơ")
+st.set_page_config(page_title="📜 Thơ & Diễn giải", layout="centered")
 
-input_text = st.text_area("✍️ Viết bài thơ của bạn vào đây:", height=200)
-
-# 2. Tách câu thơ theo dòng
-lines = input_text.strip().split("\n") if input_text else []
-
-st.write("---")
-st.subheader("📖 Bài thơ của bạn:")
-
-# 3. Tạo selector và hiển thị diễn giải
-if lines:
-    selected_line = st.radio("👉 Chọn một dòng thơ để xem diễn giải:", lines)
-
-    # 4. Diễn giải thủ công hoặc gợi ý
-    explanations = {
-        line: f"Diễn giải cho câu: “{line}”"  # bạn có thể viết cụ thể hơn hoặc dùng AI để sinh
-        for line in lines
+# Dữ liệu bài thơ chi tiết
+poem_data_detailed = [
+    {
+        "stanza_number": 1,
+        "lines": [
+            {"text": "Áo em trắng quá nhìn không ra", "annotation": "Gợi hình ảnh trong sáng, tinh khôi. Màu áo trắng tượng trưng cho sự thuần khiết."},
+            {"text": "Hàng cây đứng đó cũng như là", "annotation": None},
+            {"text": "Bóng mát che riêng đời chúng ta", "annotation": "Sự che chở, gắn bó mật thiết. Tình yêu đôi lứa được ví như bóng mát an lành."},
+            {"text": "Ngón tay thon thả ngắt lá đa.", "annotation": "Hành động tinh tế, nhẹ nhàng, thể hiện sự dịu dàng của người con gái."}
+        ]
     }
+]
 
-    st.info(explanations[selected_line])
+st.title("📖 Bài thơ có chú giải")
+
+# HTML hiển thị thơ và diễn giải
+html = "<div style='font-family:serif; font-size:18px;'>"
+
+for stanza in poem_data_detailed:
+    html += "<div style='margin-bottom: 20px;'>"
+    for idx, line in enumerate(stanza["lines"]):
+        line_id = f"stanza{stanza['stanza_number']}_line{idx}"
+        annotation = line["annotation"]
+
+        # Nếu có chú giải
+        if annotation:
+            html += f"""
+            <div style="margin-bottom:8px;">
+                <span onclick="toggleExplanation('{line_id}')" 
+                      style="cursor:pointer; color:#1f77b4; font-weight:500;">
+                    {line['text']}
+                </span>
+                <div id="{line_id}" style="display:none; margin-left:20px; color:#444; font-style:italic; margin-top:4px;">
+                    {annotation}
+                </div>
+            </div>
+            """
+        else:
+            # Nếu không có chú giải
+            html += f"<div style='margin-bottom:8px;'>{line['text']}</div>"
+
+    html += "</div>"
+
+html += "</div>"
+
+# Inject JS
+html += """
+<script>
+function toggleExplanation(id) {
+  var x = document.getElementById(id);
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+"""
+
+st.markdown(html, unsafe_allow_html=True)
