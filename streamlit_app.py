@@ -54,11 +54,7 @@ poem_data_detailed = [
 st.title("📖 Bài thơ có chú giải")
 
 # HTML hiển thị thơ và diễn giải
-html += f"""
-<div style="margin-bottom:8px;">
-    <span style="color:#1f77b4; font-weight:500;">{line['text']}</span>
-</div>
-"""
+html = "<div style='font-family:serif; font-size:18px;'>"
 
 for stanza in poem_data_detailed:
     html += "<div style='margin-bottom: 20px;'>"
@@ -66,12 +62,11 @@ for stanza in poem_data_detailed:
         line_id = f"stanza{stanza['stanza_number']}_line{idx}"
         annotation = line["annotation"]
 
-        # Nếu có chú giải
         if annotation:
             html += f"""
             <div style="margin-bottom:8px;">
                 <span onclick="toggleExplanation('{line_id}')" 
-                      style="cursor:pointer; color:#1f77b4; font-weight:500;">
+                    style="cursor:pointer; color:#1f77b4; font-weight:500;">
                     {line['text']}
                 </span>
                 <div id="{line_id}" style="display:none; margin-left:20px; color:#444; font-style:italic; margin-top:4px;">
@@ -80,9 +75,11 @@ for stanza in poem_data_detailed:
             </div>
             """
         else:
-            # Nếu không có chú giải
-            html += f"<div style='margin-bottom:8px;'>{line['text']}</div>"
-
+            html += f"""
+            <div style="margin-bottom:8px;">
+                <span style="color:#aaaaaa;">{line['text']}</span>
+            </div>
+            """
     html += "</div>"
 
 html += "</div>"
