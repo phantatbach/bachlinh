@@ -27,7 +27,16 @@ poem_data_detailed = [
     {
         "stanza_number": 1,
         "lines": [
-            {"text": "Có con ong nhỏ chăm ngoan<br>Bay đi thụ phấn giữa ngàn bông hoa<br>Trong rừng biết mấy loài hoa<br>Ấy mà nó lại đậu vào Thảo Linh", "annotation":  "Ai hiểu thì hiểu thôi"},
+            {"text": "Có con ong nhỏ chăm ngoan<br>Bay đi thụ phấn giữa ngàn bông hoa<br>Trong rừng biết mấy loài hoa<br>Ấy mà nó lại đậu vào Thảo Linh", "annotation":  "Ai hiểu thì hiểu thôi"}
+        ]
+    },
+    {
+        "stanza_number": 2,
+        "lines": [
+            {"text": "Đầu tiên hỏi chuyện linh tinh<br>Học hành, công việc, dự định tương lai<br>Câu chuyện cứ thế kéo dài<br>Lái sang câu chuyện gia tài cô Vân<br>Mặc dù vất vả muôn phần<br>Chăm ba đứa nhỏ, gian truân nặng nề<br>Ấy mà cô cũng chẳng nề<br>Nuôi ba đứa lớn, đề huề đó nha<br>Linh-đầu, Ngọc-thứ, Gấu-ba<br>Rồi sang câu chuyện mẹ cha ngọt ngào", "annotation": None},
+        ]
+        
+    }
             {"text": "Hàng cây đứng đó cũng như là", "annotation": None},
             {"text": "Bóng mát che riêng đời chúng ta", "annotation": "Sự che chở, gắn bó mật thiết. Tình yêu đôi lứa được ví như bóng mát an lành."},
             {"text": "Ngón tay thon thả ngắt lá đa.", "annotation": "Hành động tinh tế, nhẹ nhàng, thể hiện sự dịu dàng của người con gái."}
