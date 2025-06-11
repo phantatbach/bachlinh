@@ -54,7 +54,11 @@ poem_data_detailed = [
 st.title("📖 Bài thơ có chú giải")
 
 # HTML hiển thị thơ và diễn giải
-html = "<div style='font-family:serif; font-size:18px;'>"
+html += f"""
+<div style="margin-bottom:8px;">
+    <span style="color:#1f77b4; font-weight:500;">{line['text']}</span>
+</div>
+"""
 
 for stanza in poem_data_detailed:
     html += "<div style='margin-bottom: 20px;'>"
