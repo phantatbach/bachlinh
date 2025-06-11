@@ -20,14 +20,14 @@ with cols[1]:
     st.image("images/linh.jpg", caption="Thảo Linh", use_container_width=True)
 
 # ---- Relationship Summary ----
-st.header("Timeline")
+st.header("Thơ về cuộc tình")
 
 # Dữ liệu bài thơ chi tiết
 poem_data_detailed = [
     {
         "stanza_number": 1,
         "lines": [
-            {"text": "Áo em trắng quá nhìn không ra", "annotation": "Gợi hình ảnh trong sáng, tinh khôi. Màu áo trắng tượng trưng cho sự thuần khiết."},
+            {"text": "Có con ong nhỏ chăm ngoan\nBay đi thụ phấn giữa ngàn bông hoa\nTrong rừng biết mấy loài hoa\nẤy mà nó lại đậu vào Thảo Linh", "annotation":  "Ai hiểu thì hiểu thôi"},
             {"text": "Hàng cây đứng đó cũng như là", "annotation": None},
             {"text": "Bóng mát che riêng đời chúng ta", "annotation": "Sự che chở, gắn bó mật thiết. Tình yêu đôi lứa được ví như bóng mát an lành."},
             {"text": "Ngón tay thon thả ngắt lá đa.", "annotation": "Hành động tinh tế, nhẹ nhàng, thể hiện sự dịu dàng của người con gái."}
