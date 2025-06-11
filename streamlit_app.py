@@ -97,4 +97,7 @@ function toggleExplanation(id) {
 </script>
 """
 
-st.markdown(html, unsafe_allow_html=True)
+import streamlit.components.v1 as components
+
+# Chèn toàn bộ HTML + JS bằng components.html (cho phép <script> chạy)
+components.html(html, height=600, scrolling=True)
