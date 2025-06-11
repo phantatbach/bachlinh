@@ -42,6 +42,12 @@ poem_data_detailed = [
             {"text": "Thời gian cứ thế ào ào<br>Cả hai dính chặt lúc nào không hay<br>Thế mà Linh vẫn loay hoay<br>Nên yêu hay bỏ, nghĩ ngày nghĩ đêm<br>Nghĩ về trò chuyện hàng đêm<br>Nghĩ về những lúc yếu mềm cô đơn<br>Nghĩ về cái thiệt cái hơn<br>Yêu xa là khổ, giận hờn vu vơ", "annotation": "Mặc dù có cảm tình, Linh vẫn không chắc chắn liệu có nên tiến xa hơn không."},
         ]        
     },
+    {
+        "stanza_number": 4,
+        "lines": [
+            {"text": "Bách thì mong mỏi đợi chờ<br>Những dòng tin nhắn lập lờ từ Linh<br>Đôi khi chỉ nói linh tinh<br>Mà vui như Tết, một mình đã lâu<br>Ấy mà đời đẹp vậy đâu!<br>Sóng yên bể lặng, u sầu than ai<br>Đợi chờ cứ thế kéo dài<br>Thích nhau rồi cũng nhạt phai đôi phần<br>Chịu không nổi, cứ lần chần<br>Bách đành chủ động xoá dần chữ si", "annotation": "Mặc dù có cảm tình, nhưng thấy Linh vẫn chần chừ và không chắc chắn, Bách đành ... xóa biệt hiệu."},
+        ]        
+    },
 ]
 
 # HTML hiển thị thơ và diễn giải
