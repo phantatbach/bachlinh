@@ -27,7 +27,7 @@ poem_data_detailed = [
     {
         "stanza_number": 1,
         "lines": [
-            {"text": "Có con ong nhỏ chăm ngoan<br>Bay đi thụ phấn giữa ngàn bông hoa<br>Trong rừng biết mấy loài hoa<br>Ấy mà nó lại đậu vào Thảo Linh", "annotation":  "Ai hiểu thì hiểu thôi"}
+            {"text": "Có con ong nhỏ chăm ngoan<br>Bay đi thụ phấn giữa ngàn bông hoa<br>Trong rừng biết mấy loài hoa<br>Ấy mà nó lại đậu vào Thảo Linh", "annotation":  "Ai hiểu thì hiểu thôi!"}
         ]
     },
     {
@@ -63,10 +63,10 @@ for stanza in poem_data_detailed:
             html += f"""
             <div style="margin-bottom:8px;">
                 <span onclick="toggleExplanation('{line_id}')" 
-                    style="cursor:pointer; color:#1f77b4; font-weight:500;">
+                    style="cursor:pointer; color:#d16e94; font-weight:500;">
                     {line['text']}
                 </span>
-                <div id="{line_id}" style="display:none; margin-left:20px; color:#d16e94; font-style:italic; margin-top:4px;">
+                <div id="{line_id}" style="display:none; margin-left:20px; color:#444; font-style:italic; margin-top:4px;">
                     {annotation}
                 </div>
             </div>
