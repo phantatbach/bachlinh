@@ -34,19 +34,19 @@ poem_data_detailed = [
     {
         "stanza_number": 2,
         "lines": [
-            {"text": "Đầu tiên hỏi chuyện linh tinh:<br>Học hành, công việc, dự định tương lai.<br>Câu chuyện cứ thế kéo dài,<br>Lái sang câu chuyện gia tài cô Vân.<br>Mặc dù vất vả muôn phần,<br>Chăm ba đứa nhỏ, gian truân nặng nề.<br>Ấy mà cô cũng chẳng nề,<br>Nuôi ba đứa lớn, đề huề đó nha.<br>Linh-đầu, Ngọc-thứ, Gấu-ba.<br>Rồi sang câu chuyện mẹ cha ngọt ngào ❤️", "annotation": "Dù chỉ mới quen nhưng cả hai đã có những cuộc trò chuyện đều đặn."},
+            {"text": "Đầu tiên hỏi chuyện linh tinh:<br>Học hành, công việc, dự định tương lai.<br>Câu chuyện cứ thế kéo dài,<br>Lái sang câu chuyện gia tài cô Vân.<br>Mặc dù vất vả muôn phần,<br>Chăm ba đứa nhỏ, gian truân nặng nề.<br>Ấy mà cô cũng chẳng nề,<br>Nuôi ba đứa lớn, đề huề đó nha.<br>Linh-đầu, Ngọc-thứ, Gấu-ba.<br>Rồi sang câu chuyện mẹ cha ngọt ngào. ❤️", "annotation": "Dù chỉ mới quen nhưng cả hai đã có những cuộc trò chuyện đều đặn."},
         ]        
     },
     {
         "stanza_number": 3,
         "lines": [
-            {"text": "Thời gian cứ thế ào ào,<br>Cả hai dính chặt lúc nào không hay!<br>Thế mà Linh vẫn loay hoay<br>Nên yêu hay bỏ, nghĩ ngày nghĩ đêm<br>Nghĩ về trò chuyện hằng đêm<br>Nghĩ về những lúc yếu mềm cô đơn<br>Nghĩ về cái thiệt cái hơn<br>Yêu xa là khổ, giận hờn vu vơ", "annotation": "Mặc dù có cảm tình, Linh vẫn không chắc chắn liệu có nên tiến xa hơn không. Điều đó khiến Linh giữ một khoảng cách nhất định với Bách."},
+            {"text": "Thời gian cứ thế ào ào,<br>Cả hai dính chặt lúc nào không hay!<br>Thế mà Linh vẫn loay hoay<br>Nên yêu hay bỏ, nghĩ ngày nghĩ đêm.<br>Nghĩ về trò chuyện hằng đêm,<br>Nghĩ về những lúc yếu mềm cô đơn,<br>Nghĩ về cái thiệt cái hơn,<br>Yêu xa là khổ, giận hờn vu vơ. 😔", "annotation": "Mặc dù có cảm tình, Linh vẫn không chắc chắn liệu có nên tiến xa hơn không. Điều đó khiến Linh giữ một khoảng cách nhất định với Bách."},
         ]        
     },
     {
         "stanza_number": 4,
         "lines": [
-            {"text": "Bách thì mong mỏi đợi chờ<br>Những dòng tin nhắn lập lờ từ Linh<br>Đôi khi chỉ nói linh tinh<br>Mà vui như Tết, một mình đã lâu<br>Ấy mà đời đẹp vậy đâu!<br>Sóng yên bể lặng, u sầu than ai<br>Đợi chờ cứ thế kéo dài<br>Thích nhau rồi cũng nhạt phai đôi phần<br>Chịu không nổi, cứ lần chần<br>Bách đành chủ động xoá dần chữ si", "annotation": "Mặc dù có cảm tình với Linh và cũng biết Linh có cảm tình với mình, nhưng thấy Linh vẫn chần chừ và không chắc chắn, Bách đành ... xóa biệt hiệu. - 01/05/2025"},
+            {"text": "Bách thì mong mỏi đợi chờ<br>Những dòng tin nhắn lập lờ từ Linh.<br>Đôi khi chỉ nói linh tinh<br>Mà vui như Tết, một mình đã lâu<br>Ấy mà đời đẹp vậy đâu!<br>Sóng yên bể lặng, u sầu than ai!<br>Đợi chờ cứ thế kéo dài<br>Thích nhau rồi cũng nhạt phai đôi phần.<br>Chịu không nổi, cứ lần chần<br>Bách đành chủ động xoá dần chữ si. 👋", "annotation": "Mặc dù có cảm tình với Linh và cũng biết Linh có cảm tình với mình, nhưng thấy Linh vẫn chần chừ và không chắc chắn, Bách đành ... xóa biệt hiệu. - 01/05/2025"},
         ]        
     },
 ]
