@@ -25,7 +25,7 @@ cols = st.columns(2)
 
 # Replace the paths below with your actual image file paths or URLs
 with cols[0]:
-    st.image("images/cute-vid-call.jpg", caption="Những cuộc trò chuyện hằng đêm.", use_container_width=True)
+    st.image("images/cute-video-call.jpg", caption="Những cuộc trò chuyện hằng đêm.", use_container_width=True)
 with cols[1]:
     st.image("images/texting.jpg", caption="Những lời chúc đều đặn.", use_container_width=True)
 
@@ -37,7 +37,7 @@ poem_data_detailed = [
     {
         "stanza_number": 1,
         "lines": [
-            {"text": "xsCó con ong nhỏ chăm ngoan,<br>Bay đi thụ phấn giữa ngàn bông hoa.<br>Trong rừng biết mấy loài hoa,<br>Ấy mà nó lại đậu vào Thảo Linh. ❤️ ", "annotation":  "Ai hiểu thì hiểu thôi! - 11/04/2025"}
+            {"text": "Có con ong nhỏ chăm ngoan,<br>Bay đi thụ phấn giữa ngàn bông hoa.<br>Trong rừng biết mấy loài hoa,<br>Ấy mà nó lại đậu vào Thảo Linh. ❤️ ", "annotation":  "Ai hiểu thì hiểu thôi! - 11/04/2025"}
         ]
     },
     {
