@@ -20,6 +20,15 @@ with cols[0]:
 with cols[1]:
     st.image("images/linh.jpg", caption="Thảo Linh", use_container_width=True)
 
+st.header("Những khoảnh khắc đáng nhớ ❤️")
+cols = st.columns(2)
+
+# Replace the paths below with your actual image file paths or URLs
+with cols[0]:
+    st.image("images/cute-vid-call.jpg", caption="Những cuộc trò chuyện hằng đêm.", use_container_width=True)
+with cols[1]:
+    st.image("images/texting.jpg", caption="Những lời chúc đều đặn.", use_container_width=True)
+
 # ---- Relationship Summary ----
 st.header("Cuộc tình của chúng ta ❤️")
 
