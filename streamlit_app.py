@@ -27,7 +27,7 @@ cols = st.columns(2)
 with cols[0]:
     st.image("images/cute-video-call.jpg", caption="Những cuộc trò chuyện hằng đêm.", use_container_width=True)
 with cols[1]:
-    st.image("images/texting.jpg", caption="Những lời chúc đều đặn.", use_container_width=True)
+    st.image("images/texting.png", caption="Những lời chúc đều đặn.", use_container_width=True)
 
 # ---- Relationship Summary ----
 st.header("Cuộc tình của chúng ta ❤️")
