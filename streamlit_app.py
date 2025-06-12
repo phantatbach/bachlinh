@@ -11,7 +11,7 @@ st.set_page_config(
 st.title("Bách ❤️🔒 Thảo Linh")
 
 # ---- Image Section ----
-st.header("Ảnh của hai đứa")
+st.header("Ảnh của chúng ta ❤️")
 cols = st.columns(2)
 
 # Replace the paths below with your actual image file paths or URLs
@@ -21,7 +21,7 @@ with cols[1]:
     st.image("images/linh.jpg", caption="Thảo Linh", use_container_width=True)
 
 # ---- Relationship Summary ----
-st.header("Bài thơ về cuộc tình của hai đứa")
+st.header("Cuộc tình của chúng ta ❤️")
 
 # Dữ liệu bài thơ chi tiết
 poem_data_detailed = [
