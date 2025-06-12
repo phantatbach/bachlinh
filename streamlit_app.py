@@ -28,7 +28,7 @@ poem_data_detailed = [
     {
         "stanza_number": 1,
         "lines": [
-            {"text": "Có con ong nhỏ chăm ngoan<br>Bay đi thụ phấn giữa ngàn bông hoa<br>Trong rừng biết mấy loài hoa<br>Ấy mà nó lại đậu vào Thảo Linh", "annotation":  "Ai hiểu thì hiểu thôi!"}
+            {"text": "Có con ong nhỏ chăm ngoan<br>Bay đi thụ phấn giữa ngàn bông hoa<br>Trong rừng biết mấy loài hoa<br>Ấy mà nó lại đậu vào Thảo Linh", "annotation":  "Ai hiểu thì hiểu thôi! - 11/04/2025"}
         ]
     },
     {
@@ -46,7 +46,7 @@ poem_data_detailed = [
     {
         "stanza_number": 4,
         "lines": [
-            {"text": "Bách thì mong mỏi đợi chờ<br>Những dòng tin nhắn lập lờ từ Linh<br>Đôi khi chỉ nói linh tinh<br>Mà vui như Tết, một mình đã lâu<br>Ấy mà đời đẹp vậy đâu!<br>Sóng yên bể lặng, u sầu than ai<br>Đợi chờ cứ thế kéo dài<br>Thích nhau rồi cũng nhạt phai đôi phần<br>Chịu không nổi, cứ lần chần<br>Bách đành chủ động xoá dần chữ si", "annotation": "Mặc dù có cảm tình, nhưng thấy Linh vẫn chần chừ và không chắc chắn, Bách đành ... xóa biệt hiệu."},
+            {"text": "Bách thì mong mỏi đợi chờ<br>Những dòng tin nhắn lập lờ từ Linh<br>Đôi khi chỉ nói linh tinh<br>Mà vui như Tết, một mình đã lâu<br>Ấy mà đời đẹp vậy đâu!<br>Sóng yên bể lặng, u sầu than ai<br>Đợi chờ cứ thế kéo dài<br>Thích nhau rồi cũng nhạt phai đôi phần<br>Chịu không nổi, cứ lần chần<br>Bách đành chủ động xoá dần chữ si", "annotation": "Mặc dù có cảm tình, nhưng thấy Linh vẫn chần chừ và không chắc chắn, Bách đành ... xóa biệt hiệu. 01/05/2025"},
         ]        
     },
 ]
