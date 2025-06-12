@@ -28,7 +28,7 @@ poem_data_detailed = [
     {
         "stanza_number": 1,
         "lines": [
-            {"text": "Có con ong nhỏ chăm ngoan<br>Bay đi thụ phấn giữa ngàn bông hoa<br>Trong rừng biết mấy loài hoa<br>Ấy mà nó lại đậu vào Thảo Linh", "annotation":  "Ai hiểu thì hiểu thôi! - 11/04/2025"}
+            {"text": "Có con ong nhỏ chăm ngoan<br>Bay đi thụ phấn giữa ngàn bông hoa<br>Trong rừng biết mấy loài hoa<br>Ấy mà nó lại đậu vào Thảo Linh", "annotation":  "Ai ba hiểu thì hiểu thôi! - 11/04/2025"}
         ]
     },
     {
